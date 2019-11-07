@@ -1,0 +1,567 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.4.10-Madeira" projectname="">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=tmerc +lat_0=0 +lon_0=-62 +k=0.9995000000000001 +x_0=400000 +y_0=0 +ellps=clrk80 +towgs84=725,685,536,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>3</srsid>
+      <srid>2002</srid>
+      <authid>EPSG:2002</authid>
+      <description>Dominica 1945 / British West Indies Grid</description>
+      <projectionacronym>tmerc</projectionacronym>
+      <ellipsoidacronym>clrk80</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer id="whale_sighting_899a6d1e_20a0_4a19_b4ea_963834773128" providerKey="ogr" name="whale_sighting" source="./whale_sighting.shp|layername=whale_sighting" checked="Qt::Checked" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="new_depth1_7648389a_eeb4_4f4f_91bb_3e35879f659c" providerKey="gdal" name="new_depth1" source="G:/Data/Data_for_CP/CSLI/Scratch/Maxent/new_depth1.tif" checked="Qt::Checked" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="Google_Hybrid_53a425ed_d02d_4d79_b72d_535e45dbf07a" providerKey="wms" name="Google Hybrid" source="type=xyz&amp;zmin=0&amp;zmax=20&amp;url=https://mt1.google.com/vt/lyrs%3Dy%26x%3D{x}%26y%3D{y}%26z%3D{z}" checked="Qt::Checked" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>whale_sighting_899a6d1e_20a0_4a19_b4ea_963834773128</item>
+      <item>Google_Hybrid_53a425ed_d02d_4d79_b72d_535e45dbf07a</item>
+      <item>new_depth1_7648389a_eeb4_4f4f_91bb_3e35879f659c</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings intersection-snapping="0" type="1" tolerance="12" mode="2" unit="1" enabled="0">
+    <individual-layer-settings>
+      <layer-setting id="whale_sighting_899a6d1e_20a0_4a19_b4ea_963834773128" type="1" tolerance="12" enabled="0" units="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>meters</units>
+    <extent>
+      <xmin>379222.69030391302658245</xmin>
+      <ymin>1621676.89072203915566206</ymin>
+      <xmax>491902.50564100040355697</xmax>
+      <ymax>1758374.61892785411328077</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=tmerc +lat_0=0 +lon_0=-62 +k=0.9995000000000001 +x_0=400000 +y_0=0 +ellps=clrk80 +towgs84=725,685,536,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>3</srsid>
+        <srid>2002</srid>
+        <authid>EPSG:2002</authid>
+        <description>Dominica 1945 / British West Indies Grid</description>
+        <projectionacronym>tmerc</projectionacronym>
+        <ellipsoidacronym>clrk80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" name="whale_sighting" open="true" checked="Qt::Checked" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="whale_sighting_899a6d1e_20a0_4a19_b4ea_963834773128" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="new_depth1" open="true" checked="Qt::Checked" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="new_depth1_7648389a_eeb4_4f4f_91bb_3e35879f659c" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="Google Hybrid" open="true" checked="Qt::Checked" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="Google_Hybrid_53a425ed_d02d_4d79_b72d_535e45dbf07a" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectlayers>
+    <maplayer refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" type="raster" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories" maxScale="0" minScale="1e+08">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>Google_Hybrid_53a425ed_d02d_4d79_b72d_535e45dbf07a</id>
+      <datasource>type=xyz&amp;zmin=0&amp;zmax=20&amp;url=https://mt1.google.com/vt/lyrs%3Dy%26x%3D{x}%26y%3D{y}%26z%3D{z}</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <attribution href="https://www.google.at/permissions/geoguidelines/attr-guide.html">Map data ©2015 Google</attribution>
+      <layername>Google Hybrid</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property value="Undefined" key="identify/format"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer opacity="1" band="1" type="singlebandcolordata" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeBlue="128" colorizeStrength="100" saturation="0" colorizeRed="255" colorizeGreen="128" grayscaleMode="0" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" type="raster" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories" maxScale="0" minScale="1e+08">
+      <extent>
+        <xmin>348414.68677211046451703</xmin>
+        <ymin>1652286.69927092897705734</ymin>
+        <xmax>491414.68677211046451703</xmax>
+        <ymax>1757786.69927092897705734</ymax>
+      </extent>
+      <id>new_depth1_7648389a_eeb4_4f4f_91bb_3e35879f659c</id>
+      <datasource>G:/Data/Data_for_CP/CSLI/Scratch/Maxent/new_depth1.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>new_depth1</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=-62 +k=0.9995000000000001 +x_0=400000 +y_0=0 +ellps=clrk80 +towgs84=725,685,536,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>3</srsid>
+          <srid>2002</srid>
+          <authid>EPSG:2002</authid>
+          <description>Dominica 1945 / British West Indies Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>clrk80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList useSrcNoData="1" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer opacity="1" blueBand="-1" type="multibandcolor" greenBand="-1" alphaBand="-1" redBand="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <redContrastEnhancement>
+            <minValue>1</minValue>
+            <maxValue>8</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </redContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeBlue="128" colorizeStrength="100" saturation="0" colorizeRed="255" colorizeGreen="128" grayscaleMode="0" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" type="vector" simplifyMaxScale="1" autoRefreshTime="0" labelsEnabled="0" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" maxScale="0" minScale="1e+08" readOnly="0" geometry="Point" simplifyDrawingTol="1" simplifyLocal="1">
+      <extent>
+        <xmin>414237.2749061404610984</xmin>
+        <ymin>1652738.78969558584503829</ymin>
+        <xmax>485780.01480270392494276</xmax>
+        <ymax>1739530.99808022961951792</ymax>
+      </extent>
+      <id>whale_sighting_899a6d1e_20a0_4a19_b4ea_963834773128</id>
+      <datasource>./whale_sighting.shp|layername=whale_sighting</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>whale_sighting</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=-62 +k=0.9995000000000001 +x_0=400000 +y_0=0 +ellps=clrk80 +towgs84=725,685,536,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>3</srsid>
+          <srid>2002</srid>
+          <authid>EPSG:2002</authid>
+          <description>Dominica 1945 / British West Indies Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>clrk80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
+        <symbols>
+          <symbol type="marker" name="0" alpha="1" force_rhr="0" clip_to_extent="1">
+            <layer locked="0" class="SimpleMarker" pass="0" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="125,139,143,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="species">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="long">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lat">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="species" index="0"/>
+        <alias name="" field="long" index="1"/>
+        <alias name="" field="lat" index="2"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="species"/>
+        <default expression="" applyOnUpdate="0" field="long"/>
+        <default expression="" applyOnUpdate="0" field="lat"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" constraints="0" field="species" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="long" unique_strength="0" notnull_strength="0"/>
+        <constraint exp_strength="0" constraints="0" field="lat" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="species"/>
+        <constraint desc="" exp="" field="long"/>
+        <constraint desc="" exp="" field="lat"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="whale_sighting_899a6d1e_20a0_4a19_b4ea_963834773128"/>
+    <layer id="Google_Hybrid_53a425ed_d02d_4d79_b72d_535e45dbf07a"/>
+    <layer id="new_depth1_7648389a_eeb4_4f4f_91bb_3e35879f659c"/>
+  </layerorder>
+  <properties>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <PAL>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <SearchMethod type="int">0</SearchMethod>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <TextFormat type="int">0</TextFormat>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+    </PAL>
+    <Measurement>
+      <AreaUnits type="QString"></AreaUnits>
+      <DistanceUnits type="QString"></DistanceUnits>
+    </Measurement>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">true</filterByMap>
+    </Legend>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+    </Gui>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>Callie Steffen</author>
+    <creation>2019-11-06T17:20:08</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+</qgis>
