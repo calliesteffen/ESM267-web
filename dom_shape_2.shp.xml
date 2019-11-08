@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20191108</CreaDate><CreaTime>09512300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process Name="Raster to Polygon" ToolSource="c:\program files (x86)\arcgis\desktop10.7\ArcToolbox\Toolboxes\Conversion Tools.tbx\RasterToPolygon" Date="20191108" Time="095123">RasterToPolygon H:\ESM267\ESM267-web\reclass_d H:\ESM267\ESM267-web\dom_shape_2.shp SIMPLIFY VALUE MULTIPLE_OUTER_PART #</Process></lineage></DataProperties></Esri></metadata>
